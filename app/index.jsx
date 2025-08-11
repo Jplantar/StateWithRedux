@@ -138,22 +138,7 @@ function AppScaffold() {
         </View>
       </View>
 
-      {showBanner && (
-          <Banner
-            visible
-            actions={[{ label: "Ok4y", onPress: () => dispatch(dismissBanner()) }]}
-            icon={({ size }) => (
-              <Avatar.Icon size={size} icon="information-outline" />
-            )}
-            style={{ backgroundColor: '#2196f3', color: '#fff' }}
-          >
-            <Text style={{ color: '#fff' }}>
-              This screen demonstrates an improved Redux todo list with separate active and done cards.
-            </Text>
-          </Banner>
-      )}
-
-      <NotificationBanner />
+    
 
       <ScrollView
         style={styles.content}
