@@ -138,8 +138,6 @@ function AppScaffold() {
         </View>
       </View>
 
-    
-
       <ScrollView
         style={styles.content}
         contentContainerStyle={[
